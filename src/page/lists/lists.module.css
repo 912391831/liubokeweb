@@ -1,0 +1,31 @@
+.lists li {
+  box-sizing: border-box;
+  height: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ffffff;
+  transition: all 0.2s;
+  color: black;
+}
+.lists li:hover {
+  border-bottom: 1px solid red;
+  color: red;
+}
+.lists li p {
+  flex: 1;
+  margin-right: 30px;
+  font-size: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.lists li div {
+  flex: none;
+}
+@media screen and (max-width: 375px) {
+  .lists li div {
+    display: none;
+  }
+}

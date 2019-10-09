@@ -1,0 +1,7 @@
+.errpage {
+  background: url("./img/404.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100%;
+  height: 100vh;
+}

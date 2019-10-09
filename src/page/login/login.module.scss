@@ -1,0 +1,13 @@
+.login {
+    color: red;
+    background: url("./img/bg.jpg") no-repeat;
+    background-size: 100%;
+    background-position: top center;
+    .content {
+        color: aqua;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+}

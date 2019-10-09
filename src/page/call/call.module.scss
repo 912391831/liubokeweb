@@ -1,0 +1,41 @@
+@keyframes myfirst
+{
+    from {
+        transform: rotate(-20deg);
+    }
+    to {
+        transform: rotate(20deg);
+    }
+}
+
+.call {
+    .list {
+        li {
+            padding: 20px;
+            border-bottom: 1px solid #cccccc;
+            .name {
+                color: #26709A;
+                font-size: 16px; 
+            }
+            .content {
+                min-height: 50px;
+            }
+            .time {
+                text-align: right;
+            }
+        }
+    }
+    .msg {
+        cursor: pointer;
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        animation: myfirst 0.2s infinite alternate;
+        i {
+            font-size: 50px;
+        }
+        &:hover {
+            color: #26709A;
+        }
+    }
+}
